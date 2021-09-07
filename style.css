@@ -82,7 +82,7 @@ li > a {
 }
 
 #experience {
-  background-image: linear-gradient(#f5fffa 0%, #ffff00 100%);
+  background-image: linear-gradient(#f5fffa 0%, cyan 100%);
   border: 5px solid darkslategray;
   padding: 50px;
   margin: 50px;
@@ -123,8 +123,8 @@ li > a {
 
 .image {
   opacity: 1;
-  display: block;
-  width: 100%;
+  /* display: block; */
+  /* width: 100%; */
   height: auto;
   transition: 0.5s ease;
   backface-visibility: hidden;
@@ -154,42 +154,24 @@ li > a {
 .wrapper > span {
   position: relative;
 }
-.text {
-  background-color: darkslategray;
-  color: white;
-  font-size: 25px;
-  padding: 12px 24px;
-  border-radius: 10px;
+
+h1 > a {
+  text-decoration: none;
+  font-weight: 900;
+  font-size: 35px;
 }
-/* section{
-    margin: 10px;
-    background-color:black;
-    border-radius: 15px;
-    justify-content: center;
-    padding-left: 10px;
-    width: 500px;
-    color: white;
-} */
 
-/* section > h3{
-    /* border: 2px solid white; */
-
-/* background-color: violet;
-    color: whitesmoke;
-    padding: 5px; 
-    border-radius: 10px;
-   width: 80%; 
-    padding-left: 10px;
-    position: relative;
-    text-align: center;
-    margin: 10px;
-}  */
 ul > li {
   font-size: 18px;
 }
-/* #sec1{
-    width: 70%;
-} */
+
+#contact {
+  text-align: center;
+  padding: 10px;
+  background-color: darkslategray;
+  color: white;
+}
+
 img {
   height: 300px;
   width: 300px;
@@ -197,4 +179,38 @@ img {
   margin: 20px;
   text-align: center;
   align-items: center;
+}
+
+#contact > div > p {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+footer {
+  background-color: darkslategray;
+  padding: 20px;
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.iconContainer {
+  text-align: center;
+  padding: 10px;
+  background-color: darkslategray;
+}
+
+.iconContainer > ul li {
+  display: inline;
+  list-style-type: none;
+  display: inline;
+}
+.fa {
+  color: darkslategray;
+  padding: 0;
+}
+
+.fa:hover {
+  color: lightgreen;
 }
